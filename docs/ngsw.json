@@ -1,0 +1,111 @@
+{
+  "configVersion": 1,
+  "timestamp": 1641050910915,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.574e35d7b9ba0954.js",
+        "/manifest.webmanifest",
+        "/polyfills.da307566e4859c40.js",
+        "/runtime.72781f57f7cd2e33.js",
+        "/styles.55a3fc1cabc19262.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/skills/aws.svg",
+        "/assets/icons/skills/git.svg",
+        "/assets/icons/skills/java.svg",
+        "/assets/icons/skills/mongodb.svg",
+        "/assets/icons/skills/terraform.svg",
+        "/assets/icons/social-media/github.svg",
+        "/assets/icons/social-media/linkedin.svg",
+        "/assets/icons/social-media/mail.svg",
+        "/assets/icons/social-media/whatsapp.svg",
+        "/assets/images/me.jpeg",
+        "/assets/images/myLogo.jpg",
+        "/assets/json/interest-list.json",
+        "/assets/json/project-list.json",
+        "/assets/json/skill-list.json",
+        "/assets/json/work-list.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/icons/skills/aws.svg": "e07f5cb1247ac360b8f68c20f5836c995bf739d4",
+    "/assets/icons/skills/git.svg": "22ba0d618a963723350b75ec53c2b4ae71c4ff0f",
+    "/assets/icons/skills/java.svg": "e995061c3e3b4f124ebda2e0b0eccef81f4dc9c7",
+    "/assets/icons/skills/mongodb.svg": "8930179662aa3d86717c137ec99be175522d6969",
+    "/assets/icons/skills/terraform.svg": "b95fda8b8e0828441ce6af0f9c2344bdb1d49b77",
+    "/assets/icons/social-media/github.svg": "6b262735f876ca9b28e73c08f8319dc2a154cbe4",
+    "/assets/icons/social-media/linkedin.svg": "d40ff2cb67c285226925b563ab7eb7291535f37e",
+    "/assets/icons/social-media/mail.svg": "aa0cf6b4c334ce852e11b3e54698efb27e11f6a0",
+    "/assets/icons/social-media/whatsapp.svg": "7c99ed69596dda8ac41a655b41902eaac3f78004",
+    "/assets/images/me.jpeg": "384b458b543ba544cb2bdb8401d99daffc2cdfab",
+    "/assets/images/myLogo.jpg": "a2d8558e8e9bb3618bf4f5035320a65d1e89aec5",
+    "/assets/json/interest-list.json": "05e80362cbecc807cdf9c7cba57ed107e05fb4ae",
+    "/assets/json/project-list.json": "4030a4dcdb626390d4c42ee7020f56cdc1e48d7b",
+    "/assets/json/skill-list.json": "dbd068ecedc8da9ffdb83901630c334fd0671584",
+    "/assets/json/work-list.json": "edc2966a4cd1c42d2945ed25bd4931a159932500",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "06f96b4ce9d784a744749ab3462ee7e58625a61d",
+    "/main.574e35d7b9ba0954.js": "888b290a7eef7077818b543a81e3c656320f6a0f",
+    "/manifest.webmanifest": "9661cebca82342c8d6de07f3948ed37c8f05efb3",
+    "/polyfills.da307566e4859c40.js": "6bfffdc436dd1bb33b1591fcef86beec7bf20d18",
+    "/runtime.72781f57f7cd2e33.js": "48ce8286698c5ec6bc20ffba9cd4ce790a3d1d29",
+    "/styles.55a3fc1cabc19262.css": "a7f72450273228bcdcfe38be0c1a38ff4a427170"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

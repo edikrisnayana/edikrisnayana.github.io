@@ -1,0 +1,32 @@
+[
+    {
+        "iconName": "java-icon",
+        "iconUrl": "../../assets/icons/skills/java.svg",
+        "skillName": "Java",
+        "value": 8
+    },
+    {
+        "iconName": "mongodb-icon",
+        "iconUrl": "../../assets/icons/skills/mongodb.svg",
+        "skillName": "MongoDB",
+        "value": 7
+    },
+    {
+        "iconName": "aws-icon",
+        "iconUrl": "../../assets/icons/skills/aws.svg",
+        "skillName": "AWS",
+        "value": 6
+    },
+    {
+        "iconName": "terraform-icon",
+        "iconUrl": "../../assets/icons/skills/terraform.svg",
+        "skillName": "Terraform",
+        "value": 6
+    },
+    {
+        "iconName": "git-icon",
+        "iconUrl": "../../assets/icons/skills/git.svg",
+        "skillName": "Git",
+        "value": 8
+    }
+]

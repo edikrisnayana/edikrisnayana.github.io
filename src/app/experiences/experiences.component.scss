@@ -1,0 +1,10 @@
+.experience-description {
+    padding-left: 18px;
+    width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-description {
+        width: 300px;
+    }
+}
