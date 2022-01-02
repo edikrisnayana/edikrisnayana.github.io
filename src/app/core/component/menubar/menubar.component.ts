@@ -9,11 +9,21 @@ import { Router } from '@angular/router';
 export class MenubarComponent implements OnInit {
 
   width: number = window.innerWidth;
+  buttonColors: Map<string, string>;
   toolbarStyle = {
     "width": this.width+'px'
   };
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    this.buttonColors = new Map<string, string>(
+      [
+        ["profile", "white"],
+        ["experiences", "white"],
+        ["skills", "white"],
+        ["interests", "white"]
+      ]
+    )
+  }
 
   ngOnInit(): void {
   }
@@ -26,4 +36,11 @@ export class MenubarComponent implements OnInit {
     this.router.navigate(navigationDetails);
   }
 
+  getColor(key: string): string | undefined {
+    return this.buttonColors.get(key);
+  }
+
+  setColor(key: string, color: string) {
+    this.buttonColors.set(key, color);
+  }
 }
