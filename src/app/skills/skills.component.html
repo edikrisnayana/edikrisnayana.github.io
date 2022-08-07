@@ -1,10 +1,12 @@
-<app-menubar></app-menubar>
-
-<h2 class="title">My Skills</h2>
-<mat-list>
+<div fxFlex fxLayout="column" fxLayoutGap="10px" style="height: 100vh">
+  <app-menubar></app-menubar>
+  <h2 class="title">My Skills</h2>
+  <mat-list>
     <mat-list-item *ngFor="let skill of skills">
-        <mat-icon mat-list-icon svgIcon="{{ skill.iconName }}"></mat-icon>
-        <div mat-line> {{ skill.skillName }} </div>
-        <mat-progress-bar mode="determinate" value="{{ (skill.value/maxValue) * 100 }}" [ngStyle] = "progressbarStyle" mat-line></mat-progress-bar>
+      <mat-icon mat-list-icon svgIcon="{{ skill.iconName }}"></mat-icon>
+      <div mat-line> {{ skill.skillName }}</div>
+      <mat-progress-bar mode="determinate" value="{{ (skill.value/maxValue) * 100 }}" [ngStyle]="progressbarStyle"
+                        mat-line></mat-progress-bar>
     </mat-list-item>
-</mat-list>
+  </mat-list>
+</div>
