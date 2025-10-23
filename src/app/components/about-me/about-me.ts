@@ -20,13 +20,13 @@ export class AboutMe implements OnInit, AfterViewInit {
   contactInfo: ContactInfo[] = [
     {
       name: 'whatsapp',
-      url: 'https://wa.me/6281234567890',
+      url: 'https://wa.me/6285731306718',
       icon: 'whatsapp-custom',
       label: 'WhatsApp'
     },
     {
       name: 'email',
-      url: 'mailto:edikrisnayana@example.com',
+      url: 'mailto:ejikrisnayana@gmail.com',
       icon: 'email-custom',
       label: 'Email'
     },
