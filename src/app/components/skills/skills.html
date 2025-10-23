@@ -1,0 +1,33 @@
+<div class="skills-container">
+  <div class="skills-header">
+    <h1 class="section-title">Skills & Technologies</h1>
+    <p class="section-subtitle">My technical expertise and proficiency levels</p>
+  </div>
+
+  @if (!loading()) {
+    <div class="skills-content">
+      <div class="skills-grid">
+        @for (skill of skills(); track skill.skillName) {
+          <mat-card class="skill-card">
+            <mat-card-content>
+              <div class="skill-header">
+                <div class="skill-icon">
+                  <mat-icon [svgIcon]="getIconName(skill.skillName)" [attr.aria-label]="skill.skillName"></mat-icon>
+                </div>
+                <div class="skill-info">
+                  <h3 class="skill-name">{{ skill.skillName }}</h3>
+                  <mat-chip class="skill-level-chip">{{ skill.experienceInYear }} years</mat-chip>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        }
+      </div>
+    </div>
+  } @else {
+    <div class="loading-container">
+      <mat-spinner diameter="40"></mat-spinner>
+      <p>Loading skills...</p>
+    </div>
+  }
+</div>
