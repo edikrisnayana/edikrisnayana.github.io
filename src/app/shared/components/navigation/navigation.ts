@@ -8,7 +8,7 @@ import { ThemeService } from '../../../services/theme.service';
   standalone: true,
   imports: [RouterModule, CommonModule],
   templateUrl: './navigation.html',
-  styleUrl: './navigation.scss'
+  styleUrls: ['./navigation.scss', '../../../shared/styles/common.scss'],
 })
 export class Navigation {
   protected readonly isMenuOpen = signal(false);

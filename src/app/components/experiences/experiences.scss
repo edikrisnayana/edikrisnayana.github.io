@@ -18,17 +18,7 @@
 }
 
 .experiences-container {
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
   padding: 71px 1rem 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: relative;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  box-sizing: border-box;
 }
 
 /* Light Mode Styles - Blue Ocean */
@@ -51,16 +41,16 @@
   .project-description, .tech-title, .project-link {
     color: #333;
   }
-  
+
   .mat-card {
     background: rgba(255, 255, 255, 0.9);
     color: #333;
-    
+
     .mat-card-title, .mat-card-subtitle, .mat-card-content {
       color: #333;
     }
   }
-  
+
   .mat-chip {
     background: rgba(0, 0, 0, 0.1);
     color: #333;
@@ -74,16 +64,16 @@
   .project-description, .tech-title, .project-link {
     color: #e0e6ed;
   }
-  
+
   .mat-card {
     background: rgba(255, 255, 255, 0.05);
     color: #e0e6ed;
-    
+
     .mat-card-title, .mat-card-subtitle, .mat-card-content {
       color: #e0e6ed;
     }
   }
-  
+
   .mat-chip {
     background: rgba(255, 255, 255, 0.1);
     color: #e0e6ed;
@@ -99,30 +89,30 @@
     .project-description, .tech-title, .project-link {
       color: #333 !important;
     }
-    
+
     .mat-card {
       background: rgba(255, 255, 255, 0.9) !important;
       color: #333 !important;
-      
+
       .mat-card-title, .mat-card-subtitle, .mat-card-content {
         color: #333 !important;
       }
     }
-    
+
     .mat-chip {
       background: rgba(0, 0, 0, 0.1) !important;
       color: #333 !important;
     }
-    
+
     .section-icon {
       color: #333 !important;
     }
-    
+
     .location-icon {
       color: #333 !important;
     }
   }
-  
+
   &.dark-theme {
     .section-title, .experience-title, .company-name, .job-title, .experience-description,
     .project-title, .project-description, .tech-stack, .duration, .location,
@@ -130,25 +120,25 @@
     .project-description, .tech-title, .project-link {
       color: #e0e6ed !important;
     }
-    
+
     .mat-card {
       background: rgba(255, 255, 255, 0.05) !important;
       color: #e0e6ed !important;
-      
+
       .mat-card-title, .mat-card-subtitle, .mat-card-content {
         color: #e0e6ed !important;
       }
     }
-    
+
     .mat-chip {
       background: rgba(255, 255, 255, 0.1) !important;
       color: #e0e6ed !important;
     }
-    
+
     .section-icon {
       color: #e0e6ed !important;
     }
-    
+
     .location-icon {
       color: #e0e6ed !important;
     }
@@ -415,49 +405,49 @@
     height: 100vh;
     overflow-y: auto;
   }
-  
+
   .theme-toggle {
     top: 2rem;
     right: 2rem;
   }
-  
+
   .content-wrapper {
     padding: 1rem 0.5rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
     margin-bottom: 1.5rem;
   }
-  
+
   .section-icon {
     font-size: 2rem;
     width: 2rem;
     height: 2rem;
   }
-  
+
   .experience-cards {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  
+
   .company-name, .project-name {
     font-size: 1.3rem;
   }
-  
+
   .position {
     font-size: 1rem;
   }
-  
+
   .responsibility, .project-description {
     font-size: 0.95rem;
   }
-  
+
   .project-links {
     flex-direction: column;
     gap: 0.5rem;
   }
-  
+
   .project-link {
     justify-content: center;
   }
@@ -467,29 +457,29 @@
   .experiences-container {
     padding: 71px 0.5rem 0.5rem;
   }
-  
+
   .content-wrapper {
     padding: 0.5rem;
   }
-  
+
   .section-title {
     font-size: 1.8rem;
   }
-  
+
   .section-icon {
     font-size: 1.8rem;
     width: 1.8rem;
     height: 1.8rem;
   }
-  
+
   .company-name, .project-name {
     font-size: 1.2rem;
   }
-  
+
   .tech-chips {
     gap: 0.3rem;
   }
-  
+
   .tech-chip {
     font-size: 0.75rem;
   }

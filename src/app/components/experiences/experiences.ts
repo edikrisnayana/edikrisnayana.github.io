@@ -16,7 +16,7 @@ import { ThemeService } from '../../services/theme.service';
   standalone: true,
   imports: [MatIconModule, MatButtonModule, MatCardModule, MatChipsModule, MatDividerModule, CommonModule],
   templateUrl: './experiences.html',
-  styleUrl: './experiences.scss',
+  styleUrls: ['./experiences.scss', '../../shared/styles/common.scss'],
 })
 export class Experiences implements OnInit, AfterViewInit {
   private matIconRegistry = inject(MatIconRegistry);

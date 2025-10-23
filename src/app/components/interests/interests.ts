@@ -13,7 +13,7 @@ import { ThemeService } from '../../services/theme.service';
   standalone: true,
   imports: [MatIconModule, MatButtonModule, MatCardModule, MatChipsModule, CommonModule],
   templateUrl: './interests.html',
-  styleUrl: './interests.scss',
+  styleUrls: ['./interests.scss', '../../shared/styles/common.scss'],
 })
 export class Interests implements OnInit, AfterViewInit {
   private matIconRegistry = inject(MatIconRegistry);

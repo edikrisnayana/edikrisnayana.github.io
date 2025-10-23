@@ -1,4 +1,4 @@
-<div class="interests-container" [class]="currentThemeSignal()">
+<div class="interests-container component-container" [class]="currentThemeSignal()">
   <!-- Background decorative elements -->
   <div class="background-decoration">
     <div class="floating-shape shape-1"></div>
@@ -28,14 +28,14 @@
             <mat-card-subtitle>Technologies and domains that fascinate me</mat-card-subtitle>
           </div>
         </mat-card-header>
-        
+
         <mat-card-content class="card-content">
           <div class="interests-grid">
-            <div 
-              *ngFor="let interest of interests; let i = index" 
+            <div
+              *ngFor="let interest of interests; let i = index"
               class="interest-item"
               [style.animation-delay]="(i * 0.1) + 's'">
-              <mat-chip 
+              <mat-chip
                 class="interest-chip"
                 [class]="currentThemeSignal()">
                 <mat-icon class="chip-icon">star</mat-icon>

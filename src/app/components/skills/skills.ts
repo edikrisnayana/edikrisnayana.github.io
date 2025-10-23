@@ -13,7 +13,7 @@ import { Skill } from '../../models/skill';
   standalone: true,
   imports: [CommonModule, MatIconModule, MatProgressSpinnerModule, MatCardModule, MatChipsModule],
   templateUrl: './skills.html',
-  styleUrl: './skills.scss',
+  styleUrls: ['./skills.scss', '../../shared/styles/common.scss'],
 })
 export class Skills implements OnInit {
   skills = signal<Skill[]>([]);

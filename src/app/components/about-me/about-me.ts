@@ -10,7 +10,7 @@ import { ThemeService } from '../../services/theme.service';
   standalone: true,
   imports: [MatIconModule, MatButtonModule],
   templateUrl: './about-me.html',
-  styleUrl: './about-me.scss',
+  styleUrls: ['./about-me.scss', '../../shared/styles/common.scss'],
 })
 export class AboutMe implements OnInit, AfterViewInit {
   private matIconRegistry = inject(MatIconRegistry);
