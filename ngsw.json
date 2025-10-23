@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1761231359442,
+  "index": "/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.csr.html",
+        "/index.html",
+        "/main-UM4K73GW.js",
+        "/manifest.webmanifest",
+        "/polyfills-UZDKQ4T6.js",
+        "/styles-DTTV3AOM.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png",
+        "/icons/skills/aws.svg",
+        "/icons/skills/git.svg",
+        "/icons/skills/java.svg",
+        "/icons/skills/mongodb.svg",
+        "/icons/skills/terraform.svg",
+        "/icons/social-media/github.svg",
+        "/icons/social-media/linkedin.svg",
+        "/icons/social-media/mail.svg",
+        "/icons/social-media/whatsapp.svg",
+        "/images/me.jpeg",
+        "/images/myLogo.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/icons/skills/aws.svg": "e07f5cb1247ac360b8f68c20f5836c995bf739d4",
+    "/icons/skills/git.svg": "22ba0d618a963723350b75ec53c2b4ae71c4ff0f",
+    "/icons/skills/java.svg": "e995061c3e3b4f124ebda2e0b0eccef81f4dc9c7",
+    "/icons/skills/mongodb.svg": "8930179662aa3d86717c137ec99be175522d6969",
+    "/icons/skills/terraform.svg": "b95fda8b8e0828441ce6af0f9c2344bdb1d49b77",
+    "/icons/social-media/github.svg": "6b262735f876ca9b28e73c08f8319dc2a154cbe4",
+    "/icons/social-media/linkedin.svg": "d40ff2cb67c285226925b563ab7eb7291535f37e",
+    "/icons/social-media/mail.svg": "aa0cf6b4c334ce852e11b3e54698efb27e11f6a0",
+    "/icons/social-media/whatsapp.svg": "7c99ed69596dda8ac41a655b41902eaac3f78004",
+    "/images/me.jpeg": "384b458b543ba544cb2bdb8401d99daffc2cdfab",
+    "/images/myLogo.jpg": "a2d8558e8e9bb3618bf4f5035320a65d1e89aec5",
+    "/index.csr.html": "98fb7f3d1a4ba7f9bc49a4429b5ccfe7187a6a33",
+    "/index.html": "590e10660b480c18d62d806bae7c75fb97561956",
+    "/main-UM4K73GW.js": "f25ed3ae6ab8895ab97b59d6b745c4884ace1d4d",
+    "/manifest.webmanifest": "07a25e0e0e8ab64a7d53abf5ee25079758385f1a",
+    "/polyfills-UZDKQ4T6.js": "38c9b370c0e9f9f932fe77ca39c98f09dc174b4d",
+    "/styles-DTTV3AOM.css": "0e0cee5c9384d34a51ec05b04c06a13450465590"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
