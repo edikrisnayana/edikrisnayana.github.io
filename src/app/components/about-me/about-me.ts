@@ -1,9 +1,9 @@
 import { Component, OnInit, AfterViewInit, inject, ChangeDetectorRef, signal, effect } from '@angular/core';
-import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
-import { DomSanitizer } from '@angular/platform-browser';
 import { ContactInfo } from '../../models/contact-info';
 import { ThemeService } from '../../services/theme.service';
+import { IconService } from '../../services/icon.service';
 
 @Component({
   selector: 'app-about-me',
@@ -13,10 +13,9 @@ import { ThemeService } from '../../services/theme.service';
   styleUrls: ['./about-me.scss', '../../shared/styles/common.scss'],
 })
 export class AboutMe implements OnInit, AfterViewInit {
-  private matIconRegistry = inject(MatIconRegistry);
-  private domSanitizer = inject(DomSanitizer);
   private cdr = inject(ChangeDetectorRef);
   private themeService = inject(ThemeService);
+  private iconService = inject(IconService);
 
   contactInfo: ContactInfo[] = [
     {
@@ -60,23 +59,7 @@ export class AboutMe implements OnInit, AfterViewInit {
   }
 
   ngOnInit() {
-    // Register custom SVG icons
-    this.matIconRegistry.addSvgIcon(
-      'whatsapp-custom',
-      this.domSanitizer.bypassSecurityTrustResourceUrl('/icons/social-media/whatsapp.svg')
-    );
-    this.matIconRegistry.addSvgIcon(
-      'email-custom',
-      this.domSanitizer.bypassSecurityTrustResourceUrl('/icons/social-media/mail.svg')
-    );
-    this.matIconRegistry.addSvgIcon(
-      'linkedin-custom',
-      this.domSanitizer.bypassSecurityTrustResourceUrl('/icons/social-media/linkedin.svg')
-    );
-    this.matIconRegistry.addSvgIcon(
-      'github-custom',
-      this.domSanitizer.bypassSecurityTrustResourceUrl('/icons/social-media/github.svg')
-    );
+    // IconService will handle icon registration
   }
 
   ngAfterViewInit() {

@@ -4,9 +4,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { DomSanitizer } from '@angular/platform-browser';
-import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { ThemeService } from '../../services/theme.service';
+import { INTERESTS_DATA } from '../../data/interests.data';
 
 @Component({
   selector: 'app-interests',
@@ -19,7 +19,6 @@ export class Interests implements OnInit, AfterViewInit {
   private matIconRegistry = inject(MatIconRegistry);
   private domSanitizer = inject(DomSanitizer);
   private cdr = inject(ChangeDetectorRef);
-  private http = inject(HttpClient);
   private themeService = inject(ThemeService);
 
   interests: string[] = [];
@@ -47,14 +46,8 @@ export class Interests implements OnInit, AfterViewInit {
   }
 
   loadInterests() {
-    this.http.get<string[]>('/json/interest-list.json').subscribe({
-      next: (data) => {
-        this.interests = data;
-        this.cdr.detectChanges();
-      },
-      error: (error) => {
-        console.error('Error loading interests:', error);
-      }
-    });
+    // Use static data instead of HTTP request
+    this.interests = INTERESTS_DATA;
+    this.cdr.detectChanges();
   }
 }
