@@ -213,20 +213,6 @@
   --theme-toggle-bg-hover: rgba(0, 0, 0, 0.1);
 }
 
-.light-theme {
-  // Light theme variables - dark text on light background
-  --nav-bg: rgba(255, 255, 255, 0.95);
-  --nav-border: rgba(0, 0, 0, 0.1);
-  --nav-text: #333;
-  --nav-text-hover: #007bff;
-  --nav-bg-hover: rgba(0, 123, 255, 0.1);
-  --nav-active-bg: rgba(0, 123, 255, 0.15);
-  --nav-brand-text: #333;
-  --nav-mobile-bg: rgba(255, 255, 255, 0.98);
-  --nav-mobile-border: rgba(0, 0, 0, 0.1);
-  --theme-toggle-bg: rgba(0, 0, 0, 0.05);
-  --theme-toggle-bg-hover: rgba(0, 0, 0, 0.1);
-}
 
 .dark-theme {
   // Dark theme variables - light text on dark background

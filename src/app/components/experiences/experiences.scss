@@ -145,35 +145,6 @@
   }
 }
 
-/* Theme Toggle Button */
-.theme-toggle {
-  position: absolute;
-  top: 3rem;
-  right: 3rem;
-  z-index: 10;
-}
-
-.theme-button {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.theme-button:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: scale(1.1);
-}
-
-:host-context(.dark-theme) .theme-button {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-
-:host-context(.dark-theme) .theme-button:hover {
-  background: rgba(255, 255, 255, 0.15);
-}
 
 .content-wrapper {
   flex: 1;
@@ -406,10 +377,6 @@
     overflow-y: auto;
   }
 
-  .theme-toggle {
-    top: 2rem;
-    right: 2rem;
-  }
 
   .content-wrapper {
     padding: 1rem 0.5rem;
